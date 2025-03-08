@@ -15,7 +15,7 @@ location = st.text_input("Gib eine Stadt ein:", "Berlin")
 date_input = st.date_input("Gib das Datum ein:", datetime.now(), key="date_input_unique_key")
 
 # API-Schlüssel für OpenWeatherMap
-api_key = "b3a160e9fec8f37993c763aa1923c8f8"
+api_key = "b3a160e9fe63aa1923c8f8"
 # Wetterdaten abrufen
 #Eine HTTP-Anfrage wird an die OpenWeatherMap API gesendet, um Wetterdaten für die eingegebene Stadt abzurufen
 #Die Antwort wird im JSON-Format zurückgegeben.
